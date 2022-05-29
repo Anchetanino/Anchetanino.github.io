@@ -1,0 +1,22 @@
+.headerbanner {
+    font-family: lovelace;
+    text-align: center;
+    font-size: 50px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogeheader {
+    text-align: center;
+}
+
+.blogcontent {
+    text-align: justify;
+}
+
+.seemore {
+    text-align: right;
+}

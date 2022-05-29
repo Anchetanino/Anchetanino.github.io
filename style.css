@@ -1,14 +1,48 @@
+/* Header, Navigator, Footer */
+
+@font-face {
+    font-family: BlackBones;
+    src: url(/Font/BlackBones.ttf);
+    font-size: smaller;
+}
+
+@font-face {
+    font-family: Lovelace;
+    src: url(/Font/Lovelace-Script-Medium-trial.ttf);
+}
+
+@font-face {
+    font-family: Bebas Neue;
+    src: url(/Font/BebasNeue-Regular.ttf);
+}
+
 header {
     position: relative;
 }
 
-header h1 {
+header img {
+    height: 90vh;
+    width: 100%
+}
+
+header .quote {
     position: absolute;
     bottom: 20px;
     font-size: 40px;
     color: rgb(0, 0, 0);
     font-family: Lovelace;
     background-color: beige;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+
+header .author {
+    position: absolute;
+    bottom: 0px;
+    left: 44.5%;
+    background-color: black;
+    color: beige;
 }
 
 nav {
@@ -21,21 +55,6 @@ nav {
     width: 100%;
     height: 50px;
     justify-content: start;
-}
-
-.headercontent {
-    padding: 50px;
-}
-
-hr {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.headerbanner {
-    font-family: lovelace;
-    text-align: center;
-    font-size: 50px;
 }
 
 .index {
@@ -65,36 +84,11 @@ hr {
     float: right;
 }
 
-.trendsimage {
-    width: 50%
-}
-
-.trendsinfo {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    align-self: center;
-}
-
-.seemore {
-    text-align: right;
-}
-
-.blog-intro {
-    display: flex;
-    flex-direction: column;
-}
-
-.blogheader {
-    text-align: center;
-}
-
-.bloginfo,
 .aboutusfoot {
     text-align: justify;
 }
 
-.indexfooter {
+footer {
     background-color: rgb(231, 166, 13);
     padding: 10px;
     height: 25%;
@@ -105,7 +99,7 @@ hr {
     text-decoration: none;
 }
 
-.indexlogo {
+.logofooter {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -126,4 +120,9 @@ hr {
     color: black;
     font-size: 25px;
     padding-left: 10px
+}
+
+hr {
+    margin-left: 50px;
+    margin-right: 50px;
 }

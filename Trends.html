@@ -9,102 +9,92 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="trendsstyle.css">
 
 
     <title>Trends</title>
-    <style>
-        @font-face {
-            font-family: BlackBones;
-            src: url(/Font/BlackBones.ttf);
-            font-size: smaller;
-        }
-        
-        @font-face {
-            font-family: Lovelace;
-            src: url(/Font/Lovelace-Script-Medium-trial.ttf);
-        }
-    </style>
 </head>
 
-<body style="margin-top: 50px;">
+<body>
     <!-- Trends -->
     <div class="Trends">
-        <header style="position: relative;">
-
-            <img src="/Images/BlogsBanner.webp" alt="Blogs Banner" style="height: 90vh; width:100%">
-            <h1 style="position: absolute; bottom:20px; left: 25%; background-color: black; color: beige;">“Don’t forget to fall in love with yourself first.” </h1>
-            <h5 style="position: absolute; bottom:0px; left: 44.5%; background-color: black; color: beige;"> – Carrie Bradshaw - </h5>
+        <header>
+            <img src="/Images/Trends.png" alt="Trends Banner" style="height: 90vh; width:100%">
+            <h1 class="quote">“Don’t forget to fall in love with yourself first.” </h1>
+            <h5 class="author"> – Carrie Bradshaw - </h5>
         </header>
-        <nav style="position: sticky; top: 0; z-index: 1; display: block; padding: 10px;  background-color:  rgb(231, 166, 13); width: 100%; height: 50px;  justify-content: start; ">
+        <nav>
             <a href="index.html">
-                <h2 style="font-family: BlackBones; font-size: x-large; color: black; float: left; margin-left: 20px;  padding-left: 5px;"> TT </h2>
+                <h2 class="index"> TT </h2>
             </a>
             <a href="Trends.html">
-                <h2 style="font-family: LoveLace;font-size: x-large; color: black; float: left; margin-left: 20px;  padding-left: 5px; border-left: 2px solid black;"> TRENDS </h2>
+                <h2 class="trendsblogs"> TRENDS </h2>
             </a>
             <a href="Blogs.html">
-                <h2 style="font-family: LoveLace;font-size: x-large; color: black; float: left; margin-left: 20px;  padding-left: 5px; border-left: 2px solid black;"> BLOGS</h2>
+                <h2 class="trendsblogs"> BLOGS</h2>
             </a>
             <a href="Trends.html#footer">
-                <h2 style="display: block; font-family: LoveLace; font-size: x-large; color: black; float: right ;">ABOUT US</h2>
+                <h2 class="aboutus">ABOUT US</h2>
             </a>
         </nav>
 
         <main>
-            <hr style="margin-left: 50px; margin-right: 50px">
-            <h1 class="headerbanner" style="font-family: lovelace; text-align: center; font-size: 50px;">TRENDS</h1>
-            <hr style="margin-left: 50px; margin-right: 50px">
+            <hr>
+            <h1 class="headerbanner">TRENDS</h1>
+            <hr>
 
             <div class="container">
-                <h1 style="text-align: left; font-family: blackbones; ">For Men</h1> <br>
+                <h1 class="category">For Men</h1> <br>
 
                 <div class="carousel slide" data-ride="carousel" id="MenClothes">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div class="row" style=" padding:20px; gap:10px">
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px; border-radius: 20px; "><img class="d-block w-100" src="/Images/MenClothes/C1.jpg" alt="1 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                            <div class="imgcarousel row">
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/MenClothes/C1.jpg" alt="1 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/MenClothes/C2.jpg" alt="2 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/MenClothes/C2.jpg" alt="2 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px; border-radius: 20px; "><img class="d-block w-100" src="/Images/MenClothes/C3.jpg" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/MenClothes/C3.jpg" alt="3 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px; border-radius: 20px; "><img class="d-block w-100" src="/Images/MenClothes/C4.jpg" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/MenClothes/C4.jpg" alt="3 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px; border-radius: 20px; "><img class="d-block w-100" src="/Images/MenClothes/C5.jpg" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/MenClothes/C5.jpg" alt="3 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="row" style=" padding:20px; gap:10px">
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/MenClothes/C1.jpg" alt="1 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                            <div class="imgcarousel row">
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/MenClothes/C1.jpg" alt="1 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/MenClothes/C2.jpg" alt="2 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/MenClothes/C2.jpg" alt="2 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/MenClothes/C3.jpg" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/MenClothes/C3.jpg" alt="3 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/MenClothes/C4.jpg" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/MenClothes/C4.jpg" alt="3 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/MenClothes/C5.jpg" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/MenClothes/C5.jpg" alt="3 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
                             </div>
                         </div>
@@ -121,57 +111,57 @@
             </div>
 
 
-            <hr style="margin-left: 50px; margin-right: 50px ">
+            <hr>
             <div class="container">
-                <h1 style="text-align: left; font-family: blackbones; ">For Women</h1> <br>
+                <h1 class="category">For Women</h1> <br>
 
                 <div class="carousel slide" data-ride="carousel" id="WomensClothes">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div class="row" style=" padding:20px; gap:10px">
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/WomensClothes/C1.jpg" alt="1 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                            <div class="imgcarousel row">
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/WomensClothes/C1.jpg" alt="1 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/WomensClothes/C2.jpg" alt="2 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/WomensClothes/C2.jpg" alt="2 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/WomensClothes/C3.jpg" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/WomensClothes/C3.jpg" alt="3 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/WomensClothes/C4.jpg" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/WomensClothes/C4.jpg" alt="3 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/WomensClothes/C5.png" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/WomensClothes/C5.png" alt="3 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="row" style=" padding:20px; gap:10px">
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/WomensClothes/C1.jpg" alt="1 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                            <div class="imgcarousel row">
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/WomensClothes/C1.jpg" alt="1 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/WomensClothes/C2.jpg" alt="2 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/WomensClothes/C2.jpg" alt="2 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/WomensClothes/C3.jpg" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/WomensClothes/C3.jpg" alt="3 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/WomensClothes/C4.jpg" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/WomensClothes/C4.jpg" alt="3 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/WomensClothes/C5.png" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/WomensClothes/C5.png" alt="3 slide">
+                                    <p class="imgtitle"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice"> $180.00</p>
                                 </div>
                             </div>
                         </div>
@@ -187,57 +177,57 @@
                 </div>
             </div>
 
-            <hr style="margin-left: 50px; margin-right: 50px ">
+            <hr>
             <div class="container">
-                <h1 style="text-align: left; font-family: blackbones; ">For Teens</h1> <br>
+                <h1 class="category">For Teens</h1> <br>
 
                 <div class="carousel slide" data-ride="carousel" id="TeensClothes">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div class="row" style=" padding:20px; gap:10px">
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px; border-radius: 20px;"><img class="d-block w-100" src="/Images/TeensClothes/C1.jpg" alt="1 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                            <div class="imgcarousel row">
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/TeensClothes/C1.jpg" alt="1 slide">
+                                    <p class="imgtitle" style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice" style="text-align: end;   font-size: medium;"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px; border-radius: 20px; "><img class="d-block w-100" src="/Images/TeensClothes/C2.jpg" alt="2 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/TeensClothes/C2.jpg" alt="2 slide">
+                                    <p class="imgtitle" style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice" style="text-align: end;   font-size: medium;"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/TeensClothes/C3.jpg" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/TeensClothes/C3.jpg" alt="3 slide">
+                                    <p class="imgtitle" style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice" style="text-align: end;   font-size: medium;"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px; "><img class="d-block w-100" src="/Images/TeensClothes/C4.jpg" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/TeensClothes/C4.jpg" alt="3 slide">
+                                    <p class="imgtitle" style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice" style="text-align: end;   font-size: medium;"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px; border-radius: 20px; "><img class="d-block w-100" src="/Images/TeensClothes/C5.webp" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/TeensClothes/C5.webp" alt="3 slide">
+                                    <p class="imgtitle" style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice" style="text-align: end;   font-size: medium;"> $180.00</p>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="row" style=" padding:20px; gap:10px">
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px; border-radius: 20px; "><img class="d-block w-100" src="/Images/TeensClothes/C1.jpg" alt="1 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                            <div class="imgcarousel row">
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/TeensClothes/C1.jpg" alt="1 slide">
+                                    <p class="imgtitle" style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice" style="text-align: end;   font-size: medium;"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/TeensClothes/C2.jpg" alt="2 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/TeensClothes/C2.jpg" alt="2 slide">
+                                    <p class="imgtitle" style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice" style="text-align: end;   font-size: medium;"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/TeensClothes/C3.jpg" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/TeensClothes/C3.jpg" alt="3 slide">
+                                    <p class="imgtitle" style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice" style="text-align: end;   font-size: medium;"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/TeensClothes/C4.jpg" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/TeensClothes/C4.jpg" alt="3 slide">
+                                    <p class="imgtitle" style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice" style="text-align: end;   font-size: medium;"> $180.00</p>
                                 </div>
-                                <div class="col-sm" style="background-color:rgb(253, 221, 179); padding:10px;  border-radius: 20px;"><img class="d-block w-100" src="/Images/TeensClothes/C5.webp" alt="3 slide">
-                                    <p style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
-                                    <p style="text-align: end;   font-size: medium;"> $180.00</p>
+                                <div class="imgbg col-sm"><img class="d-block w-100" src="/Images/TeensClothes/C5.webp" alt="3 slide">
+                                    <p class="imgtitle" style="   font-size: x-large;"> Hoodie Sabr with jeans</p>
+                                    <p class="imgprice" style="text-align: end;   font-size: medium;"> $180.00</p>
                                 </div>
                             </div>
                         </div>
@@ -260,34 +250,29 @@
         <div class="container row p-4 ">
             <div class="col-8 ">
                 <h1>About Us</h1>
-                <p style="text-align: justify; ">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis autem dicta aperiam ullam temporibus, totam error corporis unde vitae earum, quidem a dolores possimus ad nobis, nisi reprehenderit similique? Odio. "</p>
+                <p class="aboutusfoot">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis autem dicta aperiam ullam temporibus, totam error corporis unde vitae earum, quidem a dolores possimus ad nobis, nisi reprehenderit similique? Odio. "</p>
             </div>
 
 
 
         </div>
-        <footer id="footer">
-            <div class="row " style="background-color:rgb(231, 166, 13); padding: 10px; height: 25%; ">
-                <div class="col-8 ">
-                    <h3>Contact Us</h3>
-                    <textarea name="suggetions " id="suggestion " cols="50 " rows="2 " placeholder="Send you mail here. "></textarea>
-                    <button type="button "> <a href = "mailto: anchetanino2@gmail.com " style="color: black; text-decoration: none; ">Send</a> </button>
-                </div>
-                <div class="col-4 " style=" position: relative; display: flex; flex-direction: column; align-items: center; ">
-                    <img src="/Images/LOGO.png " alt="logo " width="100px " height="100px ">
-                    <h5 style="position: absolute; bottom:30px; font-family: lovelace; ">Trendy Threads</h5>
-                    <div class="social media " style="text-align: center; ">
-                        <br>
-                        <a href=" " style="color: black; font-size: 25px; padding-left:10px "><i class="bi bi-facebook "></i></a>
-                        <a href=" " style="color: black; font-size: 25px; padding-left:10px "><i class="bi bi-twitter "></i></a>
-                        <a href=" " style="color: black; font-size: 25px; padding-left:10px "><i class="bi bi-instagram "></i></a>
+        <footer class="row" id="footer">
+            <div class="col-8">
+                <h3>Contact Us</h3>
+                <textarea name="suggetions" id="suggestion" cols="50" rows="2" placeholder="Send you mail here."></textarea>
+                <button type="button"> <a class="mail" href = "mailto: anchetanino2@gmail.com">Send</a> </button>
+            </div>
+            <div class="logofooter col-4">
+                <img src="/Images/LOGO.png" alt="logo" width="100px" height="100px">
+                <h5 class="logoname">Trendy Threads</h5>
+                <div class="socialmedia">
+                    <br>
+                    <a class="sociallogo" href=""> <i class="bi bi-facebook"></i></a>
+                    <a class="sociallogo" href=""> <i class="bi bi-twitter"></i></a>
+                    <a class="sociallogo" href=""> <i class="bi bi-instagram"></i></a>
 
-                    </div>
                 </div>
             </div>
-
-
-
         </footer>
     </div>
     <!-- JavaScript Bundle with Popper -->

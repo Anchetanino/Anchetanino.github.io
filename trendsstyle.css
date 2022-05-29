@@ -1,0 +1,30 @@
+.headerbanner {
+    font-family: lovelace;
+    text-align: center;
+    font-size: 50px;
+}
+
+.category {
+    text-align: left;
+    font-family: blackbones;
+}
+
+.imgcarousel {
+    padding: 20px;
+    gap: 10px;
+}
+
+.imgbg {
+    background-color: rgb(253, 221, 179);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.imgtitle {
+    font-size: x-large;
+}
+
+.imgprice {
+    text-align: end;
+    font-size: medium;
+}

@@ -1,0 +1,39 @@
+/* Homepage Content CSS */
+
+.headercontent {
+    padding: 50px;
+}
+
+.headerbanner {
+    font-family: lovelace;
+    text-align: center;
+    font-size: 50px;
+}
+
+.trendsimage {
+    width: 50%
+}
+
+.trendsinfo {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-self: center;
+}
+
+.seemore {
+    text-align: right;
+}
+
+.blog-intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogheader {
+    text-align: center;
+}
+
+.bloginfo {
+    text-align: justify;
+}
