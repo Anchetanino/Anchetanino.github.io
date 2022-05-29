@@ -1,0 +1,129 @@
+header {
+    position: relative;
+}
+
+header h1 {
+    position: absolute;
+    bottom: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: Lovelace;
+    background-color: beige;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: block;
+    padding: 10px;
+    background-color: rgb(231, 166, 13);
+    width: 100%;
+    height: 50px;
+    justify-content: start;
+}
+
+.headercontent {
+    padding: 50px;
+}
+
+hr {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.headerbanner {
+    font-family: lovelace;
+    text-align: center;
+    font-size: 50px;
+}
+
+.index {
+    font-family: BlackBones;
+    font-size: x-large;
+    color: black;
+    float: left;
+    margin-left: 20px;
+    padding-left: 5px;
+}
+
+.trendsblogs {
+    font-family: LoveLace;
+    font-size: x-large;
+    color: black;
+    float: left;
+    margin-left: 20px;
+    padding-left: 5px;
+    border-left: 2px solid black;
+}
+
+.aboutus {
+    display: block;
+    font-family: LoveLace;
+    font-size: x-large;
+    color: black;
+    float: right;
+}
+
+.trendsimage {
+    width: 50%
+}
+
+.trendsinfo {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-self: center;
+}
+
+.seemore {
+    text-align: right;
+}
+
+.blog-intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogheader {
+    text-align: center;
+}
+
+.bloginfo,
+.aboutusfoot {
+    text-align: justify;
+}
+
+.indexfooter {
+    background-color: rgb(231, 166, 13);
+    padding: 10px;
+    height: 25%;
+}
+
+.mail {
+    color: black;
+    text-decoration: none;
+}
+
+.indexlogo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoname {
+    position: absolute;
+    bottom: 30px;
+    font-family: lovelace;
+}
+
+.socialmedia {
+    text-align: center;
+}
+
+.sociallogo {
+    color: black;
+    font-size: 25px;
+    padding-left: 10px
+}

@@ -8,17 +8,23 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
     <title>Trendy Threads</title>
     <style>
         @font-face {
             font-family: BlackBones;
-            src: url(BlackBones.ttf);
+            src: url(/Font/BlackBones.ttf);
             font-size: smaller;
         }
         
         @font-face {
             font-family: Lovelace;
-            src: url(Lovelace-Script-Medium-trial.ttf);
+            src: url(/Font/Lovelace-Script-Medium-trial.ttf);
+        }
+        
+        @font-face {
+            font-family: Bebas Neue;
+            src: url(/Font/BebasNeue-Regular.ttf);
         }
     </style>
 </head>
@@ -26,37 +32,103 @@
 <body>
     <!-- Homapage -->
     <div class="Homepage">
-        <header style="position: relative;">
-            <img src="LOGO.png" alt="LOGO" style="position: absolute; width: 200px; height: 200px; top: 10px; left: 10px;">
-            <img src="Homepagebanner.jpeg" alt="Homepage Banner" style="height: 90vh; width:100%">
 
-            <h1 style="position: absolute; bottom:20px; left: 30%; background-color: black; color: beige;">Living your FASHION DREAMS</h1>
+
+        <header class="d-flex">
+
+            <img src="/Images/Homepagebanner.jpeg" alt="Homepage Banner" style="height: 90vh; width:100%">
+
+
+            <h1 style="position: absolute;  bottom:20px; font-size: 40px; color: rgb(0, 0, 0); font-family: Lovelace; background-color: beige;">Living your FASHION DREAMS</h1>
+
         </header>
-
-        <nav style="display: block; padding: 10px; background-color: #f6beb2; width: 100%; height: 50px; border-top:5px solid black; justify-content: start; ">
-            <h2 style="font-family: BlackBones; font-size: x-large; float: left; margin-left: 10px;"> TT </h2>
-            <h2 style="font-family: LoveLace;font-size: x-large; float: left; margin-left: 20px;"> TRENDS </h2>
-            <h2 style="font-family: LoveLace;font-size: x-large; float: left; margin-left: 20px;"> BLOGS</h2>
-            <h2 style="display: block; font-family: LoveLace;font-size: x-large; float: right ;">ABOUT US</h2>
+        <nav>
+            <a href="index.html">
+                <h2 class="index"> TT </h2>
+            </a>
+            <a href="Trends.html">
+                <h2 class="trendsblogs"> TRENDS </h2>
+            </a>
+            <a href="Blogs.html">
+                <h2 class="trendsblogs"> BLOGS</h2>
+            </a>
+            <a href="index.html#footer">
+                <h2 class="aboutus">ABOUT US</h2>
+            </a>
         </nav>
+
         <main>
-            <div class="container text-center" style="padding: 50px;">
+            <div class=" headercontent container text-center">
                 <h4>"Fashion is the part of the daily air and it changes all the time, with all events. You can even see the approaching of a revolution in clothes. You can see and feel everything in clothses."</h4>
                 <p>—Diana Vreeland</p>
             </div>
-            <hr style="margin-left: 50px; margin-right: 50px">
-            <h1>TRENDS</h1>
-            <hr style="margin-left: 50px; margin-right: 50px">
-            <div class="container">
-                <img src="" alt="">
+            <hr>
+            <h1 class="headerbanner">TRENDS</h1>
+            <hr>
+            <div class="d-grid mx-5">
+                <div class="row">
+                    <img class="trendsimage col-md-6" src="/Images/Trends.png" alt="Trends" class="img-thumbnail">
+                    <div class="trendsinfo col-md-6">
+                        <h2>Trendy Fall 2020 Must-Haves</h2>
+                        <p> Summer is officially coming to a close, which means it’s time to talk about trendy wardrobe must-haves for the approaching season. Fall is truly the season where fashion comes to life! A change in temperature calls for a different
+                            wardrobe than spring and summer. We enjoy styling outfits in early fall because the weather is cool, the holiday season is on the horizon, and cozy nights by the fireplace finally made a return. The only thing missing is a
+                            collection of outfits that captures the season’s essence. </p>
+                        <a class="seemore" href="">See More.</a>
+                    </div>
+                </div>
             </div>
-            <hr style="margin-left: 50px; margin-right: 50px">
-            <div>
-                <p>Hello World</p>
+            <hr>
+            <h1 class="headerbanner">BLOGS</h1>
+            <hr>
+            <div class="container">
+                <div class="blog-intro">
+
+                    <h1 class="blogheader">"Styling Dresses & Skirts for Fall 2020"</h1>
+                    <h6 class="blogheader">BY ALLIE ALTIERI</h6> <br>
+                    <p class="bloginfo">Yes, ladies, the rumors are true! Dresses and skirts are not just for summer, they can easily be styled in the fall as well. We love to style our dresses in the fall sometimes to switch up our classic jeans and a sweater looks. In
+                        addition to looking stylish and trendy, dresses are also so easy and comfy to throw on for any occasion. We’ve seen countless Instagram posts of fashionistas rocking their dresses with boots, blazers, jackets, and more! Read on
+                        to learn more about how we are planning to style our dresses and skirts for fall 2020.</p>
+                    <p class="bloginfo">Skirts have been trending all summer long, and we are so happy to see the trend continue into fall. From tennis skirts, denim skirts, midi, and miniskirts, we have seen and are obsessed with them all! While scrolling through our Instagram
+                        feed, we noticed an abundance of skirts with oversized crewnecks. Although it may seem strange, pairing a sweatshirt with a skirt is actually so chic and cute! For a fall day at the pumpkin patch, pair your favorite colored tennis
+                        skirt with combat boots, an oversized hoodie over a collard shirt, and hoop earrings. This fashionable look screams fall and also notes how you’ve been keeping up with the latest fashion.</p>
+                    <a class="seemore" href="">See More.</a>
+
+                </div>
             </div>
 
+            <hr>
         </main>
-        <footer></footer>
+        <br> <br> <br>
+
+        <div class="container row p-4">
+            <div class="col-8">
+                <h1>About Us</h1>
+                <p class="aboutusfoot">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis autem dicta aperiam ullam temporibus, totam error corporis unde vitae earum, quidem a dolores possimus ad nobis, nisi reprehenderit similique? Odio."</p>
+            </div>
+
+
+
+        </div>
+        <footer>
+            <div class="indexfooter row">
+                <div class="col-8">
+                    <h3>Contact Us</h3>
+                    <textarea name="suggetions" id="suggestion" cols="50" rows="2" placeholder="Send you mail here."></textarea>
+                    <button type="button"> <a class="mail" href = "mailto: anchetanino2@gmail.com">Send</a> </button>
+                </div>
+                <div class="indexlogo col-4">
+                    <img src="/Images/LOGO.png" alt="logo" width="100px" height="100px">
+                    <h5 class="logoname">Trendy Threads</h5>
+                    <div class="socialmedia">
+                        <br>
+                        <a class="sociallogo" href=""> <i class="bi bi-facebook"></i></a>
+                        <a class="sociallogo" href=""> <i class="bi bi-twitter"></i></a>
+                        <a class="sociallogo" href=""> <i class="bi bi-instagram"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
