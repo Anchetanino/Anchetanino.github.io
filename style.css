@@ -142,33 +142,15 @@ hr {
     .index,
     .trendsblogs {
         font-size: x-large;
-        color: black;
-        float: left;
         margin-left: 20px;
-        padding-left: 5px;
     }
     .aboutus {
-        display: block;
-        font-family: LoveLace;
         font-size: x-large;
-        color: black;
-        float: right;
     }
     header .quote {
-        position: absolute;
-        bottom: 20px;
         font-size: 40px;
-        color: rgb(0, 0, 0);
-        font-family: Lovelace;
-        margin-left: 30%;
-        margin-right: 25%;
-        text-align: center;
-        background-color: beige;
     }
     .logoname {
-        position: absolute;
-        bottom: 30px;
-        font-family: lovelace;
         font-size: medium;
     }
 }
