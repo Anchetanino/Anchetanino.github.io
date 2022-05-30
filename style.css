@@ -31,18 +31,17 @@ header .quote {
     font-size: 40px;
     color: rgb(0, 0, 0);
     font-family: Lovelace;
-    background-color: beige;
-    margin-left: 25%;
+    margin-left: 30%;
     margin-right: 25%;
     text-align: center;
+    background-color: beige;
 }
 
 header .author {
     position: absolute;
     bottom: 0px;
-    left: 44.5%;
-    background-color: black;
-    color: beige;
+    margin-left: 37%;
+    margin-right: 34%;
 }
 
 nav {
@@ -57,8 +56,8 @@ nav {
     justify-content: start;
 }
 
-.index {
-    font-family: BlackBones;
+.index,
+.trendsblogs {
     font-size: x-large;
     color: black;
     float: left;
@@ -66,13 +65,12 @@ nav {
     padding-left: 5px;
 }
 
+.index {
+    font-family: BlackBones;
+}
+
 .trendsblogs {
     font-family: LoveLace;
-    font-size: x-large;
-    color: black;
-    float: left;
-    margin-left: 20px;
-    padding-left: 5px;
     border-left: 2px solid black;
 }
 
@@ -125,4 +123,15 @@ footer {
 hr {
     margin-left: 50px;
     margin-right: 50px;
+}
+
+@media screen and (min-width: 780px) {
+    header .quote {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    header .author {
+        margin-left: 43%;
+        margin-right: 40%;
+    }
 }

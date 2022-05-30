@@ -11,7 +11,7 @@
 }
 
 .trendsimage {
-    width: 50%
+    width: 100%;
 }
 
 .trendsinfo {
@@ -36,4 +36,10 @@
 
 .bloginfo {
     text-align: justify;
+}
+
+@media screen and (min-width: 780px) {
+    .trendsimage {
+        width: 50%;
+    }
 }
