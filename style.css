@@ -112,6 +112,7 @@ footer {
     position: absolute;
     bottom: 30px;
     font-family: lovelace;
+    font-size: small;
 }
 
 .socialmedia {
@@ -163,5 +164,11 @@ hr {
         margin-right: 25%;
         text-align: center;
         background-color: beige;
+    }
+    .logoname {
+        position: absolute;
+        bottom: 30px;
+        font-family: lovelace;
+        font-size: medium;
     }
 }
