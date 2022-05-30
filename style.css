@@ -28,7 +28,7 @@ header img {
 header .quote {
     position: absolute;
     bottom: 20px;
-    font-size: 40px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
     font-family: Lovelace;
     margin-left: 30%;
@@ -62,10 +62,10 @@ nav {
 
 .index,
 .trendsblogs {
-    font-size: x-large;
+    font-size: medium;
     color: black;
     float: left;
-    margin-left: 20px;
+    margin-left: 10px;
     padding-left: 5px;
 }
 
@@ -81,7 +81,7 @@ nav {
 .aboutus {
     display: block;
     font-family: LoveLace;
-    font-size: x-large;
+    font-size: medium;
     color: black;
     float: right;
 }
@@ -137,5 +137,31 @@ hr {
     header .author {
         margin-left: 43%;
         margin-right: 40%;
+    }
+    .index,
+    .trendsblogs {
+        font-size: x-large;
+        color: black;
+        float: left;
+        margin-left: 20px;
+        padding-left: 5px;
+    }
+    .aboutus {
+        display: block;
+        font-family: LoveLace;
+        font-size: x-large;
+        color: black;
+        float: right;
+    }
+    header .quote {
+        position: absolute;
+        bottom: 20px;
+        font-size: 40px;
+        color: rgb(0, 0, 0);
+        font-family: Lovelace;
+        margin-left: 30%;
+        margin-right: 25%;
+        text-align: center;
+        background-color: beige;
     }
 }
