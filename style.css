@@ -56,6 +56,10 @@ nav {
     justify-content: start;
 }
 
+.seemore {
+    text-align: right;
+}
+
 .index,
 .trendsblogs {
     font-size: x-large;

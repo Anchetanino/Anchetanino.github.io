@@ -21,10 +21,6 @@
     align-self: center;
 }
 
-.seemore {
-    text-align: right;
-}
-
 .blog-intro {
     display: flex;
     flex-direction: column;
